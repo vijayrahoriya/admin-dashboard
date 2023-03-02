@@ -1,17 +1,7 @@
 import './sidebar.css'
-import LineStyle from '@mui/icons-material/LineStyle'
-import Timeline from '@mui/icons-material/Timeline'
-import Trending from '@mui/icons-material/TrendingUp'
-import PermIdentity from '@mui/icons-material/PermIdentity'
-import Storefront from '@mui/icons-material/Storefront'
-import AttachMoney from '@mui/icons-material/AttachMoney'
-import BarChart from '@mui/icons-material/BarChart'
-import MailOutline from '@mui/icons-material/MailOutline'
-import DynamicFeed from '@mui/icons-material/DynamicFeed'
-import ChatBubbleOutline from '@mui/icons-material/ChatBubbleOutline'
-import WorkOutline from '@mui/icons-material/WorkOutline'
-import Report from '@mui/icons-material/Report'
+import { LineStyle,Timeline,TrendingUp,PermIdentity,Storefront,AttachMoney,BarChart,MailOutline,DynamicFeed,ChatBubbleOutline,WorkOutline,Report } from '@mui/icons-material'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 export default function Sidebar() {
   return (
@@ -31,7 +21,7 @@ export default function Sidebar() {
                     Analytics
                 </li>
                 <li className="sidebarListItem">
-                    <Trending className='sidebarIcon'/>
+                    <TrendingUp className='sidebarIcon'/>
                     Sales
                 </li>
             </ul>
